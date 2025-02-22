@@ -38,8 +38,8 @@ struct IHAD: View {
     var body: some View {
         
         ZStack {
-            Color(.backgroundcolorintro)
-                .ignoresSafeArea()
+//            Color("backintro")
+//                .ignoresSafeArea()
             
             Image("backintro")
                 .resizable()
