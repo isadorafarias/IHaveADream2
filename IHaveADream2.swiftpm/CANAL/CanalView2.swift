@@ -6,7 +6,7 @@ struct CanalView2: View {
     @State private var personagemAtual = "bellcomtouca"
     @State private var caixaAtual = "oficialcaixa10"
     @State private var mostrarTouca = true
-    @State private var mostrarTextinho = true
+    @State private var mostrarTextinho = false
     @State private var caixaFrame: CGRect = .zero
     @State private var toucaFrame: CGRect = .zero
     @State private var toucaPosition: CGPoint = .init(x: 100, y: 100)

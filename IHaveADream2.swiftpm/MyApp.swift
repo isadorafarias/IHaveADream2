@@ -10,7 +10,7 @@ struct MyApp: App {
     
     var body: some Scene {
         WindowGroup {
-            GameGesture2(roundTime: 10)
+            IHAD()
         }
     }
 }

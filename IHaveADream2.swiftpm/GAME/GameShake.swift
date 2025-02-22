@@ -10,8 +10,8 @@ import CoreMotion
 struct GameShake: View {
     
     var images = [
-        "BellVD3_2@4x",
-        "BellVT@4x",
+        "Bell13",
+        "Bell14",
     ]
     
     init (roundTime: Double) {
@@ -83,7 +83,7 @@ struct GameShake: View {
             
         }
         .onAppear {
-            shared.playSound(named: "Nivel3.wav")
+            shared.playSoundRepeat(named: "Nivel3.wav")
         }
         .onDisappear {
             shared.stopSound()

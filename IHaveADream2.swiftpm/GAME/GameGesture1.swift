@@ -11,13 +11,13 @@ import AVFoundation
 struct GameGesture1: View {
     
     var images = [
-        "BellDEF@4x",
-        "BellRE1_2@4x",
-        "BellRE2_2@4x",
-        "BellRE3_2@4x",
-        "BellRD1_2@4x",
-        "BellRD2_2@4x",
-        "BellRD3_2@4x",
+        "Bell1",
+        "Bell2",
+        "Bell3",
+        "Bell4",
+        "Bell5",
+        "Bell6",
+        "Bell7",
     ]
     
     init (roundTime: Double) {

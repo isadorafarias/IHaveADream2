@@ -45,7 +45,7 @@ struct CanalView: View {
                     }
                     
                     .fullScreenCover(isPresented: $showTutorialView) {
-                        TutorialView()
+                        CanalView2()
                     }
                 } .padding(.leading, 60)
                 

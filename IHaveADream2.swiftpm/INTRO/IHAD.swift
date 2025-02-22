@@ -78,7 +78,7 @@ struct IHAD: View {
             
             if isCardScaled  {
                 Button(action: {
-                    if cardImage == "num3carta" {
+                    if cardImage == "3carta" {
                         showCreationView = true // Direciona para a outra view apenas no num3carta
                     } else {
                         swapCardAsset() // Troca a carta
@@ -265,9 +265,9 @@ struct IHAD: View {
     func swapCardAsset() {
         cardSwapCount += 1
         if cardSwapCount == 1 {
-            cardImage = "num2carta"
+            cardImage = "2carta"
         } else if cardSwapCount == 2 {
-            cardImage = "num3carta"
+            cardImage = "3carta"
         }
     }
 }

@@ -8,13 +8,13 @@ import SwiftUI
 
 struct GameGesture2: View {
     var images = [
-        "BellRD3_2@4x",
-        "BellVE1_2@4x",
-        "BellVE2_2@4x",
-        "BellVE3_1@4x",
-        "BellVD1_3@4x",
-        "BellVD2_2@4x",
-        "BellVD3_2@4x",
+        "Bell7",
+        "Bell8",
+        "Bell9",
+        "Bell10",
+        "Bell11",
+        "Bell12",
+        "Bell13",
     ]
     init (roundTime: Double) {
         self.roundTime = roundTime
