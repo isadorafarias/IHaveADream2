@@ -32,6 +32,7 @@ struct GameOver: View {
                         .fontWeight(.regular)
                         .padding(.top, 10)
                         .padding(.trailing, 0)
+                        .font(.alkatraMedium)
                     
                     Text("Take a deep breath and come back with courage to enhance my hair, you can do it!")
                         .foregroundColor(Color("letras"))
