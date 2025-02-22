@@ -9,7 +9,7 @@ struct CanalView2: View {
     @State private var mostrarTextinho = false
     @State private var caixaFrame: CGRect = .zero
     @State private var toucaFrame: CGRect = .zero
-    @State private var toucaPosition: CGPoint = .init(x: 100, y: 100)
+    @State private var toucaPosition: CGPoint = .init(x: 100, y: 50)
     
     var body: some View {
         let dragGesture = DragGesture()
@@ -74,7 +74,7 @@ struct CanalView2: View {
                         HStack {
                             ZStack {
                                 if mostrarTouca {
-                                    Image("toucadecetim1")
+                                    Image("toucadecetim")
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 100, height: 100)
